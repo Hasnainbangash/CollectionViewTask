@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eGA-zE-dgy">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="0.0" id="yqf-Ha-6Ti">
                                     <size key="itemSize" width="0.0" height="0.0"/>
@@ -31,10 +31,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eGA-zE-dgy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0bi-pm-VRa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eGA-zE-dgy" secondAttribute="bottom" id="7WX-uU-92z"/>
-                            <constraint firstItem="eGA-zE-dgy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="y1B-g5-SKR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eGA-zE-dgy" secondAttribute="trailing" id="yHc-xk-SME"/>
+                            <constraint firstAttribute="bottom" secondItem="eGA-zE-dgy" secondAttribute="bottom" id="A1o-YC-9qN"/>
+                            <constraint firstItem="eGA-zE-dgy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PCd-DV-fUa"/>
+                            <constraint firstItem="eGA-zE-dgy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QXs-dm-RK6"/>
+                            <constraint firstItem="eGA-zE-dgy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sam-HB-9Lg"/>
                         </constraints>
                     </view>
                     <connections>
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="68" y="4"/>
+            <point key="canvasLocation" x="67.938931297709928" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>

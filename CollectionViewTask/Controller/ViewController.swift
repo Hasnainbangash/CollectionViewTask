@@ -117,7 +117,42 @@ class ViewController: UIViewController {
         UIImage(named: "picture4"),
         UIImage(named: "picture5"),
         UIImage(named: "picture1"),
-        UIImage(named: "picture1")
+        UIImage(named: "picture1"),
+        UIImage(named: "picture4"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture2"),
+        UIImage(named: "picture3"),
+        UIImage(named: "picture4"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture2"),
+        UIImage(named: "picture3"),
+        UIImage(named: "picture4"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture3"),
+        UIImage(named: "picture4"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture2"),
+        UIImage(named: "picture3"),
+        UIImage(named: "picture4"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture2"),
+        UIImage(named: "picture3"),
+        UIImage(named: "picture4"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture5"),
+        UIImage(named: "picture1"),
+        UIImage(named: "picture2"),
+        UIImage(named: "picture3")
     ]
     
     
@@ -165,5 +200,5 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 2
     }
-    
+
 }
